@@ -27,6 +27,16 @@ body {
 	text-align: center;
 }
 
+#intro a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#intro a:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #add3ff;
+}
+
 #fade {
 	text-transform: uppercase;
 	font-size: 85px;
@@ -206,7 +216,7 @@ footer p {
 
 footer .fa-linkedin-square{
   font-size: 40px;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 footer .fa-linkedin-square:hover{
